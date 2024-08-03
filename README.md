@@ -1,4 +1,4 @@
-__Answer to the question no: 1__
+__Answer to the question no: 1__ </br>
 ES6 introduced many new features and improvements to JavaScript.
     New Features in ES6:
     •	let and const: Block-scoped variables.
@@ -36,7 +36,8 @@ ES6 introduced many new features and improvements to JavaScript.
     // main.js
     import { pi, multiply } from './module.js';
 
-__Answer to the question no: 2__
+__Answer to the question no: 2__</br>
+
 Event Bubbling:  
 Event bubbling is a concept in JavaScript where an event that occurs in a nested element first triggers the innermost target element, then bubbles up to its parent elements.
 Example:
@@ -101,7 +102,8 @@ Copy code
 </html>
 In this example, the event listener is attached to the parent <ul> element. When any <li> with the class item is clicked, the event bubbles up to the parent, and the event handler logs the clicked item's text. This way, you don't need to add separate event listeners to each <li> element.
 
-__Answer to the question no: 3__
+__Answer to the question no: 3__</br>
+
 •	Local Storage: Stores data with no expiration date, data is not sent to the server with every request.
 localStorage.setItem('key', 'value');
 console.log(localStorage.getItem('key'));
@@ -112,7 +114,8 @@ console.log(sessionStorage.getItem('key'));
 document.cookie = "username=John Doe; expires=Thu, 18 Dec 2023 12:00:00 UTC";
 console.log(document.cookie);
 
-__Answer to the question no: 4__
+__Answer to the question no: 4__</br>
+
 •	display: inline: Does not start on a new line and only takes up as much width as necessary.
 .inline {
   display: inline;
@@ -127,7 +130,8 @@ __Answer to the question no: 4__
   display: block;
 }
 
-__Answer to the question no: 5__
+__Answer to the question no: 5__</br>
+
 CSS3 introduced many new features and enhancements to CSS.
 New Features in CSS3:
 •	Flexbox: Layout model for arranging elements.
