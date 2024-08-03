@@ -44,8 +44,11 @@ function match() {
   //   console.log(expression);
   if (secreteKey == expression) {
     // console.log("Matched");
-    variable.innerText = "Your Secret Key is Matched";
+    variable.innerHTML =
+      '<span class="icon">✔️</span><span class="tik">Your Secret Key is Matched</span>';
+    variable.appendChild.css;
   } else {
-    variable.innerText = "Your Secret Key is not Matched";
+    variable.innerHTML =
+      '<span class="icon">❌</span><span class="wrong">Your Secret Key is not Matched</span>';
   }
 }
