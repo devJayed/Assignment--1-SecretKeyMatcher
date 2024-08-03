@@ -19,34 +19,33 @@
           <div class="right-container">
             <div class="calculator">
               <div id="result-row">
-                <p style="color: white;">Enter Pin:</p>
+                <p style="color: white">Enter Pin:</p>
                 <div id="result" class="result"></div>
               </div>
               <div class="buttons">
                 <button onclick="addNumber(1)">1</button>
                 <button onclick="addNumber(2)">2</button>
                 <button onclick="addNumber(3)">3</button>
-  
+
                 <button onclick="addNumber(4)">4</button>
                 <button onclick="addNumber(5)">5</button>
                 <button onclick="addNumber(6)">6</button>
-  
+
                 <button onclick="addNumber(7)">7</button>
                 <button onclick="addNumber(8)">8</button>
                 <button onclick="addNumber(9)">9</button>
-  
+
                 <button onclick="addNumber(0)">0</button>
-  
-                <button onclick="clearLastDigit()">x</button>
-                <button onclick="match()">Submit</button>
-                <button onclick="clearDisplay()">Clear</button>
+
+                <button id="cross" onclick="clearLastDigit()">x</button>
+                <button id="submit" onclick="match()">Submit</button>
+                <button id="clear" onclick="clearDisplay()">Clear</button>
               </div>
             </div>
             <div id="match-unmatch">
-              <p id="match"></p>
-              <p id="unmatch"></p>
+              <p id="var"></p>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     </div>

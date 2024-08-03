@@ -38,16 +38,14 @@ function clearDisplay() {
 }
 // match function of the two string
 function match() {
-  let matchId = document.getElementById("match");
-  let unmatchId = document.getElementById("unmatch");
-  matchId.innerText = "";
-  unmatchId.innerText = "";
+  let variable = document.getElementById("var");
+  variable.innerText = "";
   //   console.log(secreteKey);
   //   console.log(expression);
   if (secreteKey == expression) {
     // console.log("Matched");
-    matchId.innerText = "Your Secret Key is Matched";
+    variable.innerText = "Your Secret Key is Matched";
   } else {
-    unmatchId.innerText = "Your Secret Key is not Matched";
+    variable.innerText = "Your Secret Key is not Matched";
   }
 }
